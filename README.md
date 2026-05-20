@@ -6,6 +6,8 @@ This project focuses on analyzing sales data using Python in order to identify b
 
 The analysis was performed using Python libraries for data manipulation, exploratory data analysis, and visualization techniques to transform raw sales data into actionable business insights.
 
+Notebook share link: https://colab.research.google.com/drive/1wNZspRT9fw2bLwr_HWBL9o6cq63uARSE?usp=sharing
+
 ---
 
 # Business Objectives
