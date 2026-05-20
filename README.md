@@ -2,19 +2,24 @@
 
 ## Project Overview
 
-This project focuses on analyzing sales data using Python in order to identify business trends, customer behavior, product performance, and revenue insights.
+This project focuses on analyzing sales data using Python in order to identify business trends, customer purchasing behavior, sales performance, and revenue patterns.
 
-The analysis was performed using Python libraries for data manipulation, exploration, and visualization.
+The analysis was performed using Python libraries for data manipulation, exploratory data analysis, and visualization techniques to transform raw sales data into actionable business insights.
 
-## Business Objectives
+---
+
+# Business Objectives
 
 - Analyze sales performance over time
-- Identify top-performing products and categories
-- Understand customer purchasing behavior
-- Explore revenue trends and business patterns
-- Create clear visualizations to support decision-making
+- Identify sales trends across multiple months
+- Explore customer purchasing behavior
+- Detect patterns and outliers in sales distribution
+- Compare monthly and statewise sales performance
+- Support business decision-making through data analysis
 
-## Tools Used
+---
+
+# Tools Used
 
 - Python
 - pandas
@@ -23,26 +28,60 @@ The analysis was performed using Python libraries for data manipulation, explora
 - Seaborn
 - Jupyter Notebook
 
-## Key Analysis Areas
+---
 
-- Data cleaning
-- Exploratory Data Analysis
-- Sales trend analysis
-- Product performance analysis
-- Revenue analysis
-- Customer behavior analysis
-- Data visualization
+# Key Analysis Areas
 
-## Project Workflow
+- Data Cleaning
+- Data Normalization
+- Exploratory Data Analysis (EDA)
+- Monthly Sales Analysis
+- Statewise Sales Analysis
+- Sales Trend Analysis
+- Distribution & Outlier Analysis
+- Data Visualization
 
-1. Import dataset
-2. Inspect data structure
-3. Clean and prepare data
+---
+
+# Project Workflow
+
+1. Import and inspect sales dataset
+2. Handle and validate missing values
+3. Normalize numerical variables
 4. Perform exploratory data analysis
-5. Create visualizations
-6. Extract business insights
+5. Analyze monthly and statewise trends
+6. Create visualizations
+7. Extract business insights
 
-## Repository Structure
+---
+
+# Charts Preview
+
+## Overall Sales Trend
+
+Daily sales trend analysis highlighting overall business performance over time.
+
+![Overall Sales Trend](charts/overall-sales-trend.png)
+
+---
+
+## Monthly Sales Comparison
+
+Comparative monthly sales analysis across October, November, and December.
+
+![Monthly Sales Comparison](charts/monthly-sales-comparison.png)
+
+---
+
+## Statewise Sales Analysis
+
+State-level sales performance comparison used to identify geographic business trends.
+
+![Statewise Sales Analysis](charts/statewise-sales-analysis.png)
+
+---
+
+# Repository Structure
 
 ```text
 sales-data-analysis-python/
@@ -52,7 +91,6 @@ sales-data-analysis-python/
 ├── data/
 ├── charts/
 └── documentation/
-```
 ## Charts Preview
 
 Screenshots and exported charts are available in the charts folder.
